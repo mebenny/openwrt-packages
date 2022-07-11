@@ -10,7 +10,8 @@ PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-	CATEGORY:=Luci
+	SECTION:=LuC0I
+	CATEGORY:=LuCI
 	SUBMENU:=3. Applications
 	PKGARCH:=all
 	TITLE:=luci for bandwidthd
